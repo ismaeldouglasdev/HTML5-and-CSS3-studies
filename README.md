@@ -8,4 +8,4 @@ Este repositório contém exercícios e aulas do curso HTML5 & CSS3, ministrado 
 
 ## Description
 
-This repository contains classes and exercises from HTML5 and CSS3 course taught by Professor Gustavo Guanabara at Curso em Vídeo.
+This repository contains classes and exercises from the HTML5 and CSS3 course taught by Professor Gustavo Guanabara at Curso em Vídeo.
