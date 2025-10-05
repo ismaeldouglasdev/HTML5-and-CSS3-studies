@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Desafio HTML - Estrutura e Estilização
+Crie uma nova página HTML com a mesma estrutura geral (header, nav, main, footer).
+
+No header, coloque o título do seu site e um menu de navegação com ao menos 4 links.
+
+Dentro do main, crie duas seções (section): uma chamada "assuntos" com pelo menos três tópicos separados por espaçamento (pode ser texto ou listas), e outra "notícias" contendo ao menos dois artigos (article).
+
+Em cada article, inclua um título, um parágrafo explicativo e um aside com algum dado extra, como nome do autor.
+
+Utilize o CSS interno para diferenciar visualmente as áreas, usando cores de fundo, margens e espaçamentos semelhantes ao exemplo.
+
+Faça o menu de navegação com links que mudem visualmente ao passar o mouse (hover).
+
+O que você vai praticar:
+Estruturação básica do HTML5: tags semânticas como header, nav, main, section, article, aside, e footer.
+
+Organização do conteúdo em blocos temáticos.
+
+Uso de CSS básico para estilização: cores, margens, espaçamentos e efeitos de hover.
+
+Criação de links.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio01</title>
+    <style>
+        body {
+            background-color: lightgoldenrodyellow;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: beige;
+        }
+        nav > a {
+            color: black;
+            text-decoration: none;
+            padding: 50px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título do site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <ul>
+                <li>Polêmicas</li>
+                <li>Músicas</li>
+                <li>Entretenimento</li>
+            </ul>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Criatividade</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eos illum, quis quasi quibusdam necessitatibus impedit voluptates aspernatur repellendus pariatur aperiam ab blanditiis alias aliquam, voluptatem a sint, eligendi officia!</p>
+                <aside>Escrito pela equipe de redação</aside>
+            </article>
+            <article>
+                <h2>Atualidades</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia vel voluptates unde atque veniam nemo laborum dolorum quo temporibus sapiente perferendis laboriosam similique, consectetur dolores. Dignissimos non exercitationem magnam quisquam.</p>
+                <aside>Escrito pela equipe de redação</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Preços</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Para bordas unificadas */
+        }
+        th {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+            border: 1px solid #ccc; /* Bordas claras nas células */
+            padding: 8px;
+            text-align: center; /* Centraliza o texto */
+        }
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+        thead {
+            background-color: #f2f2f2;/* Fundo cinza claro para cabeçalho */
+        }
+        tbody tr:nth-child(even) {
+            background-color: #fafafa; /* Cor diferente para linhas pares */
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Produto 1</td>
+                    <td>R$ 10,00</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Produto 2</td>
+                    <td>R$ 20,00</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Produto 3</td>
+                    <td>R$ 23,00</td>
+                    <td>7</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
