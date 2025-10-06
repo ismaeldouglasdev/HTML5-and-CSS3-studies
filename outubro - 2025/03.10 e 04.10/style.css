@@ -1,9 +1,25 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
 body {
     font-family: Arial, Sans-Serif;
     background-color: #84E1AD;
+
+#titulo-site {
+    text-align: center;
+}
+
 }
 header {
     background: linear-gradient(#84E1AD, #195B37);
+}
+
+.titulos-principais {
+    font-family: 'idroid';
+    color: #185B36;
+
 }
 main {
     background-color: #FBFDFD;
