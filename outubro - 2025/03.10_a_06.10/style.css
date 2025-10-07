@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #84E1AD;
+}
+
+#titulo-site {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: black;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.464);
+
+}
+
+#subtitulo {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.426);
+}
+
+header {
+    background: linear-gradient(#3ddc83, #195b38);
+    margin: -50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.437);
+}
+
+nav {
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 20px;
+}
+nav > a {
+    color: white;
+    padding-left: 100px;
+    text-decoration: none;
+}
+
+.titulos-principais {
+    font-family: 'idroid';
+    color: #185B36;
+}
+
+#titulo2 {
+    background-color: #c6ecd7;
+    margin: auto;
+}
+
+#dandroids-g {
+    width: 1000px;
+}
+
+main {
+    background-color: #FBFDFD;
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 53px;
+}
