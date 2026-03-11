@@ -38,4 +38,10 @@ div{
     line-height: 80px; /* centraliza verticalmente */
     text-align: center; /* alinhando conteudo dentro da div */
 }
-  
+
+#img-irã{
+    width:100%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 20px;
+}
